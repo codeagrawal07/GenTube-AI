@@ -115,6 +115,7 @@ st.markdown("""
     
 """, unsafe_allow_html=True)
 
+st.toast("the youtube-transcript-api library is being blocked by YouTube because developer using cloud server and this library do not work on cloud.Run this app locally on your personal device instead of a cloud platform")
 
 # Top: Input + Button
 with st.form("youtube_form"):
